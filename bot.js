@@ -1,19 +1,36 @@
-const Discord = require('discord.js');
-const client = new Discord.Client ();
-
-client.on('ready', () => {
-    console.log('I am ready!');
-});
-
-client.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('pong');
-    }
-    
-    if (message.content === 'hi') {
-        message.reply('i am fine, you?');
-    }
-});
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);(
+{
+  "ClientId": 575168848827777053,
+  "Token": "NTc1MTY4ODQ4ODI3Nzc3MDUz.XNHF8g.P6-jguaTxIbo7zki3SBrGPAiYaA",
+  "OwnerIds": [
+    211943122152849409,
+    382480518853296130,
+    564046790534496256
+  ],
+  "LoLApiKey": "",
+  "GoogleApiKey": "AIzaSyBYpntUXLh1GTBlZ9fy74JIGbKvYH9uNk8",
+  "MashapeKey": "833af98962mshed2e3d7ae06f825p1ec3d6jsne7dd54b145cf",
+  "OsuApiKey": "",
+  "SoundCloudClientId": "",
+  "CleverbotApiKey": "",
+  "CarbonKey": "",
+  "Db": {
+    "Type": "sqlite",
+    "ConnectionString": "Data Source=data/NadekoBot.db"
+  },
+  "TotalShards": 1,
+  "PatreonAccessToken": "",
+  "PatreonCampaignId": "334038",
+  "RestartCommand": {
+    "Cmd": "NadekoBot.exe"
+  },
+  "ShardRunCommand": "",
+  "ShardRunArguments": "",
+  "ShardRunPort": null,
+  "MiningProxyUrl": null,
+  "MiningProxyCreds": null,
+  "BotListToken": null,
+  "TwitchClientId": null,
+  "VotesToken": null,
+  "VotesUrl": null,
+  "RedisOptions": null
+}
